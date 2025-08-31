@@ -9,6 +9,7 @@ export default function () {
         <NavbarDemo />
         <div className="flex flex-col items-center text-4xl font-semibold mt-28">
             My Projects
+            
         </div>
         <div className="m-5 md:grid grid-cols-3 mt-5">
             <ThreeDCardDemo />
