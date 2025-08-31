@@ -35,7 +35,6 @@ export function ThreeDCardDemo() {
                 <div className="flex justify-between items-center mt-10">
                     <CardItem
                         translateZ={20}
-                        as={Link}
                         as="div"
                         className="px-4 py-2 rounded-xl text-xs font-normal text-white pointer-events-none opacity-50"
                     >

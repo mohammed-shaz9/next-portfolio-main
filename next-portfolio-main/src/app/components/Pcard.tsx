@@ -36,7 +36,7 @@ export function PcardDemo() {
                     <CardItem
                         translateZ={20}
                         as={Link}
-                        as="div"
+                        href="#"
                         className="px-4 py-2 rounded-xl text-xs font-normal text-white pointer-events-none opacity-50"
                     >
                         Try now →
