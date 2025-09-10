@@ -4,6 +4,9 @@ import { HeroScrollDemo } from "@/app/components/Scroll";
 
 import { NavbarDemo } from "./Navbar";
 import { FloatingDockDemo } from "./Dock";
+import { FcardDemo } from "./Fcard";
+import { RcardDemo } from "./Rcard";
+import { CcardDemo } from "./Ccard";
 
 
 export function SpotlightPreview() {
@@ -22,10 +25,15 @@ export function SpotlightPreview() {
                         <span className="text-4xl md:text-[4rem] font-bold mt-1 leading-none  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
                             Current Project
                         </span>
-
+                        
+                        
+                        
                         <span className=" w-[15rem] md:md:w-[60rem] flex flex-col items-center text-xl font-light mb-4 leading-none  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
                             Click and see what's inside
                         </span>
+                        <FcardDemo />
+                        <RcardDemo />
+                        <CcardDemo />
                         <span >
                             <FloatingDockDemo />
                         </span>

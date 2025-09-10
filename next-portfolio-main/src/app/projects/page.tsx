@@ -3,6 +3,9 @@ import { EcardDemo } from "../components/Ecard";
 import { IcardDemo } from "../components/Icard";
 import { NavbarDemo } from "../components/Navbar";
 import { PcardDemo } from "../components/Pcard";
+import { RcardDemo } from "../components/Rcard";
+import { FcardDemo } from "../components/Fcard";
+import { CcardDemo } from "../components/Ccard";
 
 export default function () {
     return <div>
@@ -16,6 +19,9 @@ export default function () {
             <EcardDemo />
             <PcardDemo />
             <IcardDemo />
+            <RcardDemo />
+            <FcardDemo />
+            <CcardDemo />
         </div>
-    </div>
+     </div>
 }
